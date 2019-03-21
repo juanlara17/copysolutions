@@ -4,10 +4,24 @@ body {
     margin: 0;
 }
 
-.container {
-    
+.map-responsive {
+    background-color: brown;    
+    position: relative;
+    height: 0;
+}
+
+.map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 500px;
+    width: 100%;
+    position: absolute;
 }
 
 .navbar {
-    background-color: gray;
+    background-color: green;
 }
+
+#map {
+    height: 425px;
+  }

@@ -5,7 +5,7 @@ body {
 }
 
 .container {
-    width: 100%;
+    
 }
 
 .header {
@@ -33,13 +33,20 @@ body {
     background-color: green;    
 }
 
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* ****** PORTFOLIO ****** */
+
 .portfolio{
-    background-color: #fafafa;
-    padding: 70px;
+    background-color: #fafafa;   
+    padding-top: 4rem; 
   }
 
 .title-box h2 {
-    font-size: 70px;
+    font-size: 3rem;
     font-weight: bold;
 }
 
@@ -47,11 +54,12 @@ p {
     font-size: 20px;    
 }
 
-/* ****** PORTFOLIO ****** */
 
-.title-box h2,p{
-    text-align: center;
+.title-center h2,p{
+    text-align: center!important;
 }
+
+
 
 .line-mf {    
     border: 3px solid #3279F6;
@@ -109,3 +117,24 @@ p {
 #map {
     height: 425px;
   }
+
+  .map-container-6{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    }
+    .map-container-6 iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    }
+
+/* @media screen and (max-width: 480px) {
+    .title-box h2 {
+        font-size: 3em;
+        text-align: center;
+    }
+} */

@@ -67,10 +67,10 @@
         </a>
     </div>   
 
-    <!-- PORTFOLIO  -->
-    <div class="title-box text-center">
-        <div class="portfolio" id="portfolio">
-            <div class="container">
+    <!-- PORTFOLIO  -->   
+    <div class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="row">
                 <div class="col-sm-12">
                     <div class="title-box text-center">
                         <h2 class="title-portfolio">PORTFOLIO</h2>
@@ -78,12 +78,37 @@
                         <div class="line-mf"></div>                    
                     </div>                
                 </div>
-                <div class="row">
-                    <div class="col-md-4">
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="work-box">
+                        <a href="images/print1.jpg" data-lightbox>
+                            <div class="work-img">
+                                <img src="images/print1.jpg" alt="" class="img-fluid">
+                            </div>
+                            <div class="work-content">
+                                <div class="row">
+                                    <div class="col-sm-8">
+                                        <h2 class="w-title">Lorem impsum dolor</h2>
+                                        <div class="w-more">
+                                            <span class="w-ctegory">Web Design</span> / <span class="w-date">01 Abril 2019</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="w-like">
+                                            <span class="ion-ios-plus-outline"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>   
+                <div class="col-md-4">
                         <div class="work-box">
-                            <a href="images/print1.jpg" data-lightbox>
+                            <a href="images/print2.jpg" data-lightbox>
                                 <div class="work-img">
-                                    <img src="images/print1.jpg" alt="" class="img-fluid">
+                                    <img src="images/print2.jpg" alt="" class="img-fluid">
                                 </div>
                                 <div class="work-content">
                                     <div class="row">
@@ -102,12 +127,12 @@
                                 </div>
                             </a>
                         </div>
-                    </div>   
+                    </div>  
                     <div class="col-md-4">
                             <div class="work-box">
-                                <a href="images/print2.jpg" data-lightbox>
+                                <a href="images/print3.jpg" data-lightbox>
                                     <div class="work-img">
-                                        <img src="images/print2.jpg" alt="" class="img-fluid">
+                                        <img src="images/print3.jpg" alt="" class="img-fluid">
                                     </div>
                                     <div class="work-content">
                                         <div class="row">
@@ -126,57 +151,107 @@
                                     </div>
                                 </a>
                             </div>
-                        </div>  
-                        <div class="col-md-4">
-                                <div class="work-box">
-                                    <a href="images/print3.jpg" data-lightbox>
-                                        <div class="work-img">
-                                            <img src="images/print3.jpg" alt="" class="img-fluid">
-                                        </div>
-                                        <div class="work-content">
-                                            <div class="row">
-                                                <div class="col-sm-8">
-                                                    <h2 class="w-title">Lorem impsum dolor</h2>
-                                                    <div class="w-more">
-                                                        <span class="w-ctegory">Web Design</span> / <span class="w-date">01 Abril 2019</span>
-                                                    </div>
-                                                </div>
-                                                <div class="col-sm-4">
-                                                    <div class="w-like">
-                                                        <span class="ion-ios-plus-outline"></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>                   
-                </div>
+                        </div>                   
             </div>
-        </div>        
-    </div> 
+        </div>
+    </div>        
+    
     <!-- MAPS -->
-    <div id="map"></div> 
-    <script>
-        function initMap() {
-          var myLatLng = {lat: 11.016825, lng: -74.809476};  
-          var map = new google.maps.Map(document.getElementById('map'), {
-            zoom: 12,
-            center: myLatLng
-          });
-  
-          var marker = new google.maps.Marker({
-            position: myLatLng,
-            map: map,
-            title: 'Hello World!'
-          });
-        }
-      </script>   
-    <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDjaMxbWF_IHTCLZ_UsjS4UvdQb2-WuGuM&callback=initMap">
-    </script>
+    <div id="map">
+        <script>
+            function initMap() {
+            var myLatLng = {lat: 11.016825, lng: -74.809476};  
+            var map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 12,
+                center: myLatLng
+            });
+    
+            var marker = new google.maps.Marker({
+                position: myLatLng,
+                map: map,
+                title: 'Hello World!'
+            });
+            }
+        </script>   
+        <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDjaMxbWF_IHTCLZ_UsjS4UvdQb2-WuGuM&callback=initMap">
+        </script>
+    </div> 
 
     <!-- CONTACT -->
+    <div class="contact">
+        <div class="container">
+            <h2 class="contact-heading pt-4">Contact US</h2>
+            <p class="contact-description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Impedit minus necessitatibus nihil iusto rem distinctio id quasi cumque tempore, 
+                natus incidunt culpa magnam eaque animi eos fuga soluta, quaerat est!</p>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-5 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="form-header blue accent-1">
+                                <h3><i class="fas fa-envelope"></i>Write to us:</h3>
+                            </div>
+                            <p>We'll write rarely, but only the best content.</p>
+                            <br>
+
+                            <div class="md-form">
+                                <i class="fas fa-user prefix grety-text"></i>
+                                <input type="text" id="form-name" class="form-control">
+                                <label for="form-name">Your name</label>
+                            </div>
+                            <div class="md-form">
+                                <i class="fas fa-envelope prefix grety-text"></i>
+                                <input type="text" id="form-email" class="form-control">
+                                <label for="form-email">Your email</label>
+                            </div>
+                            <div class="md-form">
+                                <i class="fas fa-tag prefix grety-text"></i>
+                                <input type="text" id="form-subject" class="form-control">
+                                <label for="form-name">Subject</label>
+                            </div>
+                            <div class="md-form">
+                                <i class="fas fa-pencil-alt prefix grety-text"></i>
+                                <textarea type="text" class="form-control md-textarea" rows="3"></textarea>
+                                <label for="form-name">Icon Prefix</label>
+                            </div>                       
+                            <div class="text-center mt-4">
+                                <button class="btn btn-light-blue">Submit</button>
+                            </div>     
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div id="map-container-google-11" class="z-depth-1-half map-container-6" style="height: 400px">
+                        <iframe src="https://maps.google.com/maps?q=new%20delphi&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                          frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>      
+                    <div class="row">
+                        <div class="col-md-4">
+                            <a href="" class="btn-floating blue accent-1"><i class="fas fa-map-marker-alt"></i></a>
+                            <p>San Francisco, CA 94126</p>
+                            <p>United States</p>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="" class="btn-floating blue accent-1"><i class="fas fa-phone"></i></a>
+                            <p>+ 01 234 567 89</p>
+                            <p>Mon-Sat, 08:00-19:00</p>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="" class="btn-floating blue accent-1"><i class="fas fa-envelope"></i></a>
+                            <p>info@gmail.com</p>
+                            <p>sale@gmail.com</p>
+                        </div>
+                    </div>          
+                </div>
+            </div>
+        </div>
+    </div>
+
+
 
     <!-- SCRIPTS BOOTSTRAP 4 -->
     <!-- <script src="js/functions.js"></script> -->

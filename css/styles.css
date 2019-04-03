@@ -11,6 +11,9 @@ body {
     z-index: 3;
 }
 
+.top-nav-collapse {
+    background-color: #4e4e4e;
+}
  
 .map-responsive {
     background-color: brown;    
@@ -24,10 +27,6 @@ body {
     height: 500px;
     width: 100%;
     position: absolute;
-}
-
-.navbar {
-    background-color: green;    
 }
 
 .row {
@@ -47,13 +46,13 @@ body {
     font-weight: bold;
 }
 
-p {
-    font-size: 20px;    
-}
-
 
 .title-center h2,p{
-    text-align: left;
+    text-align: justify;
+}
+
+.subtitle-portfolio {
+    text-align: center;
 }
 
 
@@ -133,7 +132,7 @@ p {
 
 .mb-5 {        
     margin-top: 50px;
-    font-size: 1em;
+    font-size: 3em;
 }
 
 

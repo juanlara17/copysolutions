@@ -28,9 +28,9 @@
                 </button>
                 <!-- MENU -->
                 <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ml-auto">
+                    <ul class="navbar-nav ml-auto smooth-scroll">
                         <li class="nav-item active">
-                            <a class="nav-link" href="index.html">Home
+                            <a class="nav-link" href="#">Home
                                 <span class="sr-only">(current)</span>
                             </a>
                         </li>
@@ -161,7 +161,7 @@
     </div>      
 
     <!-- CONTACT -->
-    <div class="contact">
+    <div class="contact" id="contact">
         <div class="container">
             <h2 class="mb-5 font-weight-bold text-center">
                 CONTACT US
@@ -348,10 +348,20 @@
   <script type="text/javascript" src="js/bootstrap.min.js"></script>
   <!-- MDB core JavaScript -->
   <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!-- Smooth Scroll -->
+  <script type="text/javascript" src="js/smooth-scroll.min.js"></script>
+
   <!-- Google Map Script -->
   <script async defer
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDjaMxbWF_IHTCLZ_UsjS4UvdQb2-WuGuM&callback=initMap">
   </script>
+  <script>
+        var scroll = new SmoothScroll('a[href*="#"]',{
+            customEasing: function (time) {
+                return time < 0.5 ? 2 * time * time : -1 + (4 - 2 * time) * time;
+            }
+        });                
+    </script>
   <!-- Google Map Setting -->
   <script>
     function initMap() {

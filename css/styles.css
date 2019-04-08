@@ -1,18 +1,67 @@
+/* Verde:
+#C9E265
+
+Gris:
+#E2E2E2 */
+@font-face{
+    font-family: BebasNeue_Bold;
+    src: url(../font/BebasNeue_Bold.otf);
+}
+@font-face{
+    font-family: BebasNeue_Book;
+    src: url(../font/BebasNeue_Book.otf);
+}
+@font-face{
+    font-family: BebasNeue_Light;
+    src: url(../font/BebasNeue_Light.otf);
+}
+@font-face{
+    font-family: BebasNeue_Regular;
+    src: url(../font/BebasNeue_Regular.otf);
+}
+@font-face{
+    font-family: Nexa_Bold;
+    src: url(../font/Nexa_Bold.otf);
+}
+
 body {
     font-family: 'Source Sans Pro', sans-serif;
     margin: 0;
     position: relative;
 }
 
-
 .header {
     position: sticky;
     top: 0;
-    z-index: 3;
+    z-index: 3;      
+}
+
+.navbar{
+    box-shadow: none;
+    height: 150px;
+}
+
+.navbar-custom {
+    background: linear-gradient(0deg, rgba(201, 226, 101,0),rgba(201, 226, 101,1))
+}
+
+.navbar-nav {
+    font-family: 'Oswald', sans-serif;  
+}
+
+.navbar-nav li a {
+    color: #2c2c2c;
+    font-size: 1.5em;
+    font-family: BebasNeue_Bold;
+}
+
+.ml-auto{
+    display: flex;
+    justify-content: space-around;
 }
 
 .top-nav-collapse {
-    background-color: #4e4e4e;
+    background-color: #0078ff;
 }
  
 .map-responsive {
@@ -37,7 +86,10 @@ body {
 /* ****** PORTFOLIO ****** */
 
 .portfolio{
-    background-color: #fafafa;   
+    background-image: url('../images/print2.jpg') ;
+    /* background-color: #fafafa;    */
+    background-attachment: fixed;    
+    background-size: cover;
     padding-top: 4rem; 
   }
 

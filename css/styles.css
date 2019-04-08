@@ -69,6 +69,7 @@ body {
 }
  
 /* ******** CAROUSEL *********** */
+
 .logo-carousel {
     position: absolute;
     top: 20%;
@@ -79,8 +80,8 @@ body {
 
 .logo-carousel .animate{
     font-family: Rockness;
-    font-size: 5em; 	
-    border-bottom: 2px solid #ccc;
+    font-size: 5em;  
+    margin: 100px 0 0;  
 }
 
 .animate span {

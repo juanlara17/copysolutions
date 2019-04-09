@@ -88,8 +88,11 @@ body {
 
 
 .animate span {
-	display: inline-block;
+    display: inline-block;
+    text-shadow: 1px 2px #999;
 }
+
+/* *****DIVISOR DIAGONAL ****** */
 
 section {
     position: relative;
@@ -146,20 +149,6 @@ section {
 
 
 
-.map-responsive {
-    background-color: brown;    
-    position: relative;
-    height: 0;
-}
-
-.map-responsive iframe {
-    left: 0;
-    top: 0;
-    height: 500px;
-    width: 100%;
-    position: absolute;
-}
-
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -173,6 +162,8 @@ section {
     background-attachment: fixed;    
     background-size: cover;     
     position: relative; 
+    margin-top: -250px;
+    z-index: 2;
   }
 
 .title-box h2 {

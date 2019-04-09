@@ -267,7 +267,13 @@ section {
     font-size: 3em;
 }
 
-
+/* ******** FOOTER ********* */
+.deep-purple{
+    background-color: #C9E265;
+}
+.deep-purple.accent-2{
+    background-color: #C9E265!important;   
+}
 /* ******** MEDIA QUERYS ********* */
 
 @media screen and (max-width: 786px) {

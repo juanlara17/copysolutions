@@ -70,12 +70,14 @@ body {
  
 /* ******** CAROUSEL *********** */
 
+
+
 .logo-carousel {
     position: absolute;
     top: 20%;
     z-index: 1;
     left: 0;
-    right: 0;    
+    right: 0;        
 }
 
 .logo-carousel .animate{
@@ -84,9 +86,65 @@ body {
     margin: 100px 0 0;  
 }
 
+
 .animate span {
 	display: inline-block;
 }
+
+section {
+    position: relative;
+    padding: 10em;
+    background: teal;
+    color: #fff;
+    text-align: center;
+}
+
+.col-3 .column {
+    padding: 0 1%;
+    width: 33%;
+    text-align: center;
+  }
+  .col-3 .column p {
+    padding: 1.4em;
+  }
+  .column {
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  section::before, section::after {
+    position: absolute;
+    content: '';
+    pointer-events: none;
+  }
+/* Double Diagonal line */
+.ss-style-doublediagonal {
+    z-index: 1;
+    padding-top: 6em;
+    background: #fafafa;
+  }
+  .ss-style-doublediagonal::before, .ss-style-doublediagonal::after {
+    top: 0;
+    left: -25%;
+    z-index: -1;
+    width: 150%;
+    height: 75%;
+    background: inherit;
+    -webkit-transform: rotate(-2deg);
+    transform: rotate(-2deg);
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+  }
+  .ss-style-doublediagonal::before {
+    height: 50%;
+    background: #C9E265;
+    -webkit-transform: rotate(-3deg);
+    transform: rotate(-3deg);
+    -webkit-transform-origin: 3% 0;
+    transform-origin: -5% 0;
+  }
+
+
 
 .map-responsive {
     background-color: brown;    
@@ -110,11 +168,11 @@ body {
 /* ****** PORTFOLIO ****** */
 
 .portfolio{
-    background-image: url('../images/print2.jpg') ;
-    /* background-color: #fafafa;    */
+    /* background-image: url('../images/print2.jpg'); */
+    background-color: #fafafa;   
     background-attachment: fixed;    
-    background-size: cover;
-    padding-top: 4rem; 
+    background-size: cover;     
+    position: relative; 
   }
 
 .title-box h2 {
@@ -130,8 +188,6 @@ body {
 .subtitle-portfolio {
     text-align: center;
 }
-
-
 
 .line-mf {    
     border: 3px solid #3279F6;

@@ -12,8 +12,8 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Oswald:500" rel="stylesheet">
     <link href="css/mdb.min.css" rel="stylesheet">
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <!-- HEADER -->
@@ -51,7 +51,7 @@
         </nav>     
     </div>      
     <!-- CARRUSEL -->
-    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+    <div id="carouselExampleControls" class="carousel slide diagonal" data-ride="carousel">
         <div class="container">
             <div class="row">
                 <div class="col-4 logo-carousel rounded mx-auto d-block">
@@ -84,6 +84,11 @@
             <span class="sr-only">Next</span>
         </a>
     </div>   
+
+    <section class="ss-style-doublediagonal">
+        <div class="column">         
+        </div>
+    </section>
 
     <!-- PORTFOLIO  -->   
     <div class="portfolio" id="portfolio">
@@ -246,185 +251,186 @@
                 </div>                   
             </div>
         </div>
-    </div>      
-
+    </div>    
+    
     <!-- CONTACT -->
-    <div class="contact" id="contact">
-        <div class="container">
-            <h2 class="mb-5 font-weight-bold text-center">
-                CONTACT US
-            </h2>
-            <div class="row">
-                <!-- FORM CONTACT -->
-                <div class="col-lg-5 col-md-12">                      
-                    <form action="" class="p-5">
-                        <div class="md-form form-sm">
-                            <i class="fa fa-user prefix grey-text"></i>
-                            <input type="text" id="input-1" class="form-control">
-                            <label for="input-1">Your name</label>
-                        </div>
-                        <div class="md-form form-sm">
-                            <i class="fa fa-envelope prefix grey-text"></i>
-                            <input type="text" id="input-3" class="form-control">
-                            <label for="input-3">Your Email</label>
-                        </div>
-                        <div class="md-form form-sm">
-                            <i class="fa fa-tag prefix grey-text"></i>
-                            <input type="text" id="input-3" class="form-control">
-                            <label for="input-3">Subject</label>
-                        </div>         
-                        <div class="md-form form-sm">
-                            <i class="fa fa-pen prefix grey-text"></i>
-                            <textarea type="text" id="input-4" class="md-textarea" 
-                            style="height:100px"></textarea>
-                            <label for="input-4">Your message</label>
-                        </div>
-                        <div class="text-center">
-                            <button class="btn btn-primary btn-send">Send Message<i class="fa fa-paper-plane ml-2"></i></button>
-                        </div>
-                    </form>
-                </div>
-                <!-- INFO CONTACT -->
-                <div class="col-lg-7 col-md-12">
-                    <div class="row text-center">
-                        <div class="col-md-4 mb-3">     
-                            <h3><i class="fa fa-map mr-2 grey-text"></i></h3>                       
-                            <h3><span class="badge badge-primary">Houston - TX 77099</span></h3>                                                         
-                        </div>
-                        <div class="col-md-4 mb-3">   
-                            <h3><i class="fa fa-building mr-2 grey-text"></i></h3>                          
-                            <h3><span class="badge badge-primary">Mon - Fri, 8:00-19:00</span></h3>                                                      
-                        </div>
-                        <div class="col-md-4 mb-3">      
-                            <h3><i class="fa fa-phone mr-2 grey-text"></i></h3> 
-                            <h3><span class="badge badge-primary"> +832 - 598 8333</span></h3>                            
-                        </div>
+   <div class="contact" id="contact">
+    <div class="container">
+        <h2 class="mb-5 font-weight-bold text-center">
+            CONTACT US
+        </h2>
+        <div class="row">
+            <!-- FORM CONTACT -->
+            <div class="col-lg-5 col-md-12">                      
+                <form action="" class="p-5">
+                    <div class="md-form form-sm">
+                        <i class="fa fa-user prefix grey-text"></i>
+                        <input type="text" id="input-1" class="form-control">
+                        <label for="input-1">Your name</label>
                     </div>
-                        <!-- GOOGLE MAP -->
-                    <div id="map-container" class="map-container z-depth-1-half" style="height:400px"></div>                 
-                </div>  
-            </div> 
-        </div>
+                    <div class="md-form form-sm">
+                        <i class="fa fa-envelope prefix grey-text"></i>
+                        <input type="text" id="input-3" class="form-control">
+                        <label for="input-3">Your Email</label>
+                    </div>
+                    <div class="md-form form-sm">
+                        <i class="fa fa-tag prefix grey-text"></i>
+                        <input type="text" id="input-3" class="form-control">
+                        <label for="input-3">Subject</label>
+                    </div>         
+                    <div class="md-form form-sm">
+                        <i class="fa fa-pen prefix grey-text"></i>
+                        <textarea type="text" id="input-4" class="md-textarea" 
+                        style="height:100px"></textarea>
+                        <label for="input-4">Your message</label>
+                    </div>
+                    <div class="text-center">
+                        <button class="btn btn-primary btn-send">Send Message<i class="fa fa-paper-plane ml-2"></i></button>
+                    </div>
+                </form>
+            </div>
+            <!-- INFO CONTACT -->
+            <div class="col-lg-7 col-md-12">
+                <div class="row text-center">
+                    <div class="col-md-4 mb-3">     
+                        <h3><i class="fa fa-map mr-2 grey-text"></i></h3>                       
+                        <h3><span class="badge badge-primary">Houston - TX 77099</span></h3>                                                         
+                    </div>
+                    <div class="col-md-4 mb-3">   
+                        <h3><i class="fa fa-building mr-2 grey-text"></i></h3>                          
+                        <h3><span class="badge badge-primary">Mon - Fri, 8:00-19:00</span></h3>                                                      
+                    </div>
+                    <div class="col-md-4 mb-3">      
+                        <h3><i class="fa fa-phone mr-2 grey-text"></i></h3> 
+                        <h3><span class="badge badge-primary"> +832 - 598 8333</span></h3>                            
+                    </div>
+                </div>
+                    <!-- GOOGLE MAP -->
+                <div id="map-container" class="map-container z-depth-1-half" style="height:400px"></div>                 
+            </div>  
+        </div> 
     </div>
-     
-    <!-- FOOTER -->
+</div>
+
+<!-- FOOTER -->
 
 
 <footer class="page-footer font-small unique-color-dark">
-        <div style="background-color: #6351ce;">
-          <div class="container">
-            <div class="row py-4 d-flex align-items-center">
-              <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
-                <h6 class="mb-0">Get connected with us on social networks!</h6>
-              </div>
-              <div class="col-md-6 col-lg-7 text-center text-md-right">
-                <a class="fb-ic">
-                  <i class="fab fa-facebook-f white-text mr-4"> </i>
-                </a>
-                <a class="tw-ic">
-                  <i class="fab fa-twitter white-text mr-4"> </i>
-                </a>
-                <a class="gplus-ic">
-                  <i class="fab fa-google-plus-g white-text mr-4"> </i>
-                </a>
-                <a class="li-ic">
-                  <i class="fab fa-linkedin-in white-text mr-4"> </i>
-                </a>
-                <a class="ins-ic">
-                  <i class="fab fa-instagram white-text"> </i>
-                </a>    
-              </div>
-            </div>
+    <div style="background-color: #6351ce;">
+      <div class="container">
+        <div class="row py-4 d-flex align-items-center">
+          <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+            <h6 class="mb-0">Get connected with us on social networks!</h6>
+          </div>
+          <div class="col-md-6 col-lg-7 text-center text-md-right">
+            <a class="fb-ic">
+              <i class="fab fa-facebook-f white-text mr-4"> </i>
+            </a>
+            <a class="tw-ic">
+              <i class="fab fa-twitter white-text mr-4"> </i>
+            </a>
+            <a class="gplus-ic">
+              <i class="fab fa-google-plus-g white-text mr-4"> </i>
+            </a>
+            <a class="li-ic">
+              <i class="fab fa-linkedin-in white-text mr-4"> </i>
+            </a>
+            <a class="ins-ic">
+              <i class="fab fa-instagram white-text"> </i>
+            </a>    
           </div>
         </div>
-    
-        <!-- Footer Links -->
-        <div class="container text-center text-md-left mt-5">
-          <div class="row mt-3">
-            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-               <h6 class="text-uppercase font-weight-bold">Copy Solutions</h6>
-              <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-              <p>We live in the era of technology and digital media and this forces us to develop strategies that go at the speed of today's world.
-                Copy Solutions Plus, is a company designed to meet the needs of a community that is advancing by leaps and bounds.</p>
-            </div>
-            <!-- Grid column -->
-    
-            <!-- Grid column -->
-            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-    
-              <!-- Links -->
-              <h6 class="text-uppercase font-weight-bold">Services</h6>
-              <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-              <p>
-                <a href="#!">Branding</a>
-              </p>
-              <p>
-                <a href="#!">Digital Print</a>
-              </p>
-              <p>
-                <a href="#!">Marketing</a>
-              </p>
-              <p>
-                <a href="#!">Stationery</a>
-              </p>
-    
-            </div>
-            <!-- Grid column -->
-    
-            <!-- Grid column -->
-            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-    
-              <!-- Links -->
-              <h6 class="text-uppercase font-weight-bold">Useful links</h6>
-              <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-              <p>
-                <a href="#!">Your Account</a>
-              </p>
-              <p>
-                <a href="#!">Become an Affiliate</a>
-              </p>
-              <p>
-                <a href="#!">Shipping Rates</a>
-              </p>
-              <p>
-                <a href="#!">Help</a>
-              </p>
-    
-            </div>
-            <!-- Grid column -->
-    
-            <!-- Grid column -->
-            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-    
-              <!-- Links -->
-              <h6 class="text-uppercase font-weight-bold">Contact</h6>
-              <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-              <p>
-                <i class="fas fa-home mr-3"></i> 10912 West Bellfor ST, Houston, TX 77099, US</p>
-              <p>
-                <i class="fas fa-envelope mr-3"></i> copysolutionsplus@gmail.com</p>
-              <p>
-                <i class="fas fa-phone mr-3"></i> + 832- 598 8333</p>
-              <p>
-                <i class="fa fa-whatsapp mr-3"></i> + 832 - 528 8559</p>
-    
-            </div>
-            <!-- Grid column -->
-    
-          </div>
-          <!-- Grid row -->
-    
+      </div>
+    </div>
+
+    <!-- Footer Links -->
+    <div class="container text-center text-md-left mt-5">
+      <div class="row mt-3">
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+           <h6 class="text-uppercase font-weight-bold">Copy Solutions</h6>
+          <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+          <p>We live in the era of technology and digital media and this forces us to develop strategies that go at the speed of today's world.
+            Copy Solutions Plus, is a company designed to meet the needs of a community that is advancing by leaps and bounds.</p>
         </div>
-        <!-- Footer Links -->
-    
-        <!-- Copyright -->
-        <div class="footer-copyright text-center py-3">© 2019 Copyright:
-          <a href="https://mdbootstrap.com/education/bootstrap/">Tech&Engineering</a>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+
+          <!-- Links -->
+          <h6 class="text-uppercase font-weight-bold">Services</h6>
+          <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+          <p>
+            <a href="#!">Branding</a>
+          </p>
+          <p>
+            <a href="#!">Digital Print</a>
+          </p>
+          <p>
+            <a href="#!">Marketing</a>
+          </p>
+          <p>
+            <a href="#!">Stationery</a>
+          </p>
+
         </div>
-        <!-- Copyright -->
-    
-      </footer>
-      <!-- Footer -->
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+
+          <!-- Links -->
+          <h6 class="text-uppercase font-weight-bold">Useful links</h6>
+          <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+          <p>
+            <a href="#!">Your Account</a>
+          </p>
+          <p>
+            <a href="#!">Become an Affiliate</a>
+          </p>
+          <p>
+            <a href="#!">Shipping Rates</a>
+          </p>
+          <p>
+            <a href="#!">Help</a>
+          </p>
+
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+
+          <!-- Links -->
+          <h6 class="text-uppercase font-weight-bold">Contact</h6>
+          <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+          <p>
+            <i class="fas fa-home mr-3"></i> 10912 West Bellfor ST, Houston, TX 77099, US</p>
+          <p>
+            <i class="fas fa-envelope mr-3"></i> copysolutionsplus@gmail.com</p>
+          <p>
+            <i class="fas fa-phone mr-3"></i> + 832- 598 8333</p>
+          <p>
+            <i class="fa fa-whatsapp mr-3"></i> + 832 - 528 8559</p>
+
+        </div>
+        <!-- Grid column -->
+
+      </div>
+      <!-- Grid row -->
+
+    </div>
+    <!-- Footer Links -->
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2019 Copyright:
+      <a href="https://mdbootstrap.com/education/bootstrap/">Tech&Engineering</a>
+    </div>
+    <!-- Copyright -->
+
+  </footer>
+  <!-- Footer -->
+
 
     
     <!-- SCRIPTS BOOTSTRAP 4 -->

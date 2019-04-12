@@ -1,20 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i');
 
-
-/*.take-input {
-  margin: 50px 0 0;
-}
-
-.take-input input {
-  width: 400px;
-  height: 35px;
-  padding: 0 10px;
-  border-radius: 5px;
-  border: 1px solid #ececec;
-  margin: 0 15px 0 0;
-  font-size: 15px;
-}*/
-
+/* ANIMACION PHRASES CAROUSEL */
 
 .animate span {
 	display: inline-block;
@@ -131,33 +117,24 @@ a.repeat:hover {
 	}
 }
 
+/* DIAGONAL SECTION SERVICES */
 
-section {
-	position: relative;
-	background: blue;
-	color: #fff;
-	text-align: center;
-}
-section:before {
-	position: absolute;
-	content:'';
-}
-section.diagonal {
-	background: blue;
-}
-.diagonal {
-	z-index: 1;
-}
-.diagonal:before {
-	-webkit-transform: rotate(-3deg);
-	transform: rotate(-3deg);
-	-webkit-transform-origin: 3% 0;
-	transform-origin: 3% 0;
-	top: 0;
-	left: -25%;
-	z-index: -1;
-	width: 150%;
-	height: 75%;
-	background: inherit;
+
+.promo {
+	background: url(../images/print1.jpeg) no-repeat;	
+	opacity: 0.5;
+  background-size: cover;
+  color: #fff;
+  font-family: 'Fira Sans', sans-serif;
+  margin: 50px 0;
+  overflow: hidden;
+  padding: 150px 20px;
+  position: relative;
+  text-align: center;
+  text-shadow: 0px 0px 1px rgba(0, 0, 0, 1);
 }
 
+.promo {
+	-webkit-clip-path: polygon(0 0, 0 90%, 100% 100%, 100% 10%);
+	clip-path: polygon(0 0, 0 90%, 100% 100%, 100% 10%);
+}

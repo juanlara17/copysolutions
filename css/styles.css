@@ -256,14 +256,9 @@ section {
     text-align: center;
 }
 
-.services:before {
-    position: absolute;
-    content: '';
-}
 
 .services img {
-    margin-left: 10px;
-    
+    margin-left: 10px;    
 }
 
 /* DIVIDER DIAGONAL */

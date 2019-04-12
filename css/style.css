@@ -121,20 +121,21 @@ a.repeat:hover {
 
 
 .promo {
-	background: url(../images/print1.jpeg) no-repeat;	
-	opacity: 0.5;
-  background-size: cover;
-  color: #fff;
-  font-family: 'Fira Sans', sans-serif;
+	background: url(../images/print1.jpeg) no-repeat;		
+  background-size: cover;  
   margin: 50px 0;
   overflow: hidden;
   padding: 150px 20px;
-  position: relative;
-  text-align: center;
-  text-shadow: 0px 0px 1px rgba(0, 0, 0, 1);
+  position: relative; 
 }
+
+
 
 .promo {
 	-webkit-clip-path: polygon(0 0, 0 90%, 100% 100%, 100% 10%);
 	clip-path: polygon(0 0, 0 90%, 100% 100%, 100% 10%);
+	-moz-box-shadow: inset 0px 850px 500px -700px #fff;
+  -webkit-box-shadow: inset 0px 850px 500px -700px #fff;
+  -o-box-shadow: inset 0px 850px 500px -700px #fff;
+  box-shadow: inset 0px 850px 500px -700px #fff;
 }

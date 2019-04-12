@@ -250,24 +250,16 @@ section {
 /* **** SERVICES **** */
 
 .services {
-    width: 100%;
     position: relative;
-    display: inline-block;
-    text-align: center;
+    margin-top: 150px;
 }
 
-
-.services img {
-    margin-left: 10px;    
+.circle-services {    
+    position: absolute;    
+    z-index: 10 !important;
+    margin-left: 80px;
 }
 
-/* DIVIDER DIAGONAL */
-
-.texto-encima {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-}
 .centrado{
     position: absolute;
     top: 50%;
@@ -280,6 +272,17 @@ section {
     font-size: 80px;
 }
 
+.branding h1
+{
+    font-family: Rockness;
+    font-size: 5em;
+}
+
+.branding p {
+    font-size: 2em;
+    float: right;
+    display: flex;
+}
 
  /* **** FORM - CONTACT ***** */
 

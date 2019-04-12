@@ -159,17 +159,20 @@ section {
     background-size: cover;     
     position: relative; 
     margin-top: -250px;
-    z-index: 2;
+    z-index: 2;    
   }
 
 .title-box h2 {
     font-size: 3rem;
     font-weight: bold;
+    font-family: BebasNeue_Bold;
 }
 
 
 .title-center h2,p{
     text-align: justify;
+    font-family: BebasNeue_Book;
+    font-size: 1.5em;
 }
 
 .subtitle-portfolio {
@@ -272,23 +275,16 @@ section {
     font-size: 80px;
 }
 
-.branding h1
-{
-    font-family: Rockness;
-    font-size: 5em;
-}
-
-.branding p {
-    font-size: 2em;
-    float: right;
-    display: flex;
-}
-
  /* **** FORM - CONTACT ***** */
 
 .mb-5 {        
     margin-top: 50px;
     font-size: 3em;
+    font-family: BebasNeue_Bold;  
+}
+
+.contact h2 {
+    margin-bottom: 0 !important;
 }
 
 /* ******** FOOTER ********* */

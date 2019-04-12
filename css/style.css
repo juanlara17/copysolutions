@@ -1,20 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i');
 
-
-/*.take-input {
-  margin: 50px 0 0;
-}
-
-.take-input input {
-  width: 400px;
-  height: 35px;
-  padding: 0 10px;
-  border-radius: 5px;
-  border: 1px solid #ececec;
-  margin: 0 15px 0 0;
-  font-size: 15px;
-}*/
-
+/* ANIMACION PHRASES CAROUSEL */
 
 .animate span {
 	display: inline-block;
@@ -131,5 +117,53 @@ a.repeat:hover {
 	}
 }
 
+/* DIAGONAL SECTION SERVICES */
 
+.branding {
+	background: url(../images/print1.jpeg) no-repeat;		
+  background-size: cover;  
+  margin: 50px 0;
+  overflow: hidden;
+  padding: 150px 20px;
+  position: relative; 
+}
 
+.digital-printer {
+	background: url(../images/print4.jpg) no-repeat;		
+	background-size: cover;
+	margin: 50px 0;
+	overflow: hidden;
+	padding: 150px 20px;
+	position: relative; 
+}
+
+.marketing {
+	background: url(../images/print2.jpg) no-repeat;		
+	background-size: cover;
+	margin: 50px 0;
+	overflow: hidden;
+	padding: 150px 20px;
+	position: relative; 
+}
+
+.promo {
+	-webkit-clip-path: polygon(0 0, 0 90%, 100% 100%, 100% 10%);
+	clip-path: polygon(0 0, 0 90%, 100% 100%, 100% 10%);
+	-moz-box-shadow: inset 0px 850px 500px -700px #fff;
+  -webkit-box-shadow: inset 0px 850px 500px -700px #fff;
+  -o-box-shadow: inset 0px 850px 500px -700px #fff;
+  box-shadow: inset 0px 850px 500px -700px #fff;
+}
+
+.promo h1
+{
+    font-family: Rockness;
+    font-size: 5em;
+}
+
+.promo p {
+    font-size: 2em;
+    float: right;
+		display: flex;
+		font-family: BebasNeue_Bold;
+}
